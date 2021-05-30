@@ -1,0 +1,86 @@
+/* Stylesheet for Tribute to Teddy */
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+    Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: #222222;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #bbb;
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+}
+#header {
+  background: linear-gradient(35deg, #333, #555);
+  margin: 20px;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+#title {
+  font-size: 4rem;
+  margin-bottom: 0pc;
+}
+#main {
+  background: linear-gradient(35deg, #2c2c2c, #333);
+  margin: 20px;
+  border-radius: 5px;
+  padding: 15px 15px 15px 15px;
+}
+@media (max-width: 300px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+#img-div {
+  background: linear-gradient(35deg, #2c2c2c, #555);
+  padding: 10px;
+  margin: 0;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+}
+#img-caption {
+  font-size: 80%;
+  font-style: oblique;
+  text-align: center;
+  margin: 15px 0 5px 0;
+}
+#tribute-info {
+  background: linear-gradient(35deg, #555, #2c2c2c);
+  padding: 10px;
+  margin: 0;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+#headline {
+  font-size: 3rem;
+  text-align: center;
+}
+p {
+  text-align: left;
+  line-height: 1.2;
+  padding: 10px 20px 10px 20px;
+  font-size: 0.85em;
+}
+a {
+  color: aqua;
+}
+a:visited {
+  color: darkred;
+}
+@media (max-width: 460px) {
+  body {
+    padding: 10px 10px 10px 10px;
+  }
+}
