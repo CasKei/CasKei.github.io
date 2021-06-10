@@ -27,6 +27,9 @@ body {
   font-size: 4rem;
   margin-bottom: 0pc;
 }
+#subtitle {
+  text-align: center;
+}
 #main {
   background: linear-gradient(35deg, #2c2c2c, #333);
   margin: 20px;
@@ -49,6 +52,7 @@ body {
 #image {
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 #img-caption {
   font-size: 80%;
