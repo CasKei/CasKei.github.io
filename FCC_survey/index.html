@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">FCC Survey Form</h1>
+        <p id="description" class="description text-center">
+          Thank you for taking the time to help experiment with my form-making
+          skills.
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="number" id="number-label">Age</label>
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="4"
+            max="80"
+            class="form-control"
+            placeholder="Enter your age"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <p>Select one from the following</p>
+          <select name="role" id="dropdown" required>
+            <option value="trash">Failure</option>
+            <option value="snake">Faker</option>
+            <option value="mugger">Mugger</option>
+            <option value="preferNo">Thou shalt not say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Would you recommend FCC to snakes?</p>
+          <label>
+            <input
+              type="radio"
+              name="user-recommend"
+              id="radio"
+              value="definitely"
+              checked
+            />Definitely
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="user-recommend"
+              id="radio"
+              value="mayhaps"
+            />Mayhaps
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="user-recommend"
+              id="radio"
+              value="nah"
+            />Nah
+          </label>
+        </div>
+        <div class="form-group">
+          <p>What do you want to see?</p>
+          <label>
+            <input
+              type="checkbox"
+              name="prefer"
+              id="hotguys"
+              class="input-checkbox"
+              value="hot"
+            />Hot guys
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="prefer"
+              id="sexyguys"
+              class="input-checkbox"
+              value="sexy"
+            />Sexy guys
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="prefer"
+              id="coolguys"
+              class="input-checkbox"
+              value="cool"
+            />Cool guys
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="prefer"
+              id="cuteguys"
+              class="input-checkbox"
+              value="cute"
+            />Cute guys
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+            name="comment"
+            id="comments"
+            class="input-textarea"
+            placeholder="Enter your comment here"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
