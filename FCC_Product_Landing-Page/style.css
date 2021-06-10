@@ -74,7 +74,6 @@ header {
 #video-container {
   overflow: hidden;
   position: relative;
-  padding-top: 56.25%;
 }
 #video {
   border: 0;
