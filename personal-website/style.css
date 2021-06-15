@@ -108,10 +108,13 @@ a:active {
 .gridfit {
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 }
+.navlink {
+  transition-duration: 0.7s;
+}
 .navlink:hover {
   background-color: #202020;
   color: #44e9ff;
-  transition-duration: 0.7s;
+
   font-weight: 500;
   font-style: italic;
 }
@@ -235,5 +238,8 @@ footer {
   }
   p {
     font-size: 90%;
+  }
+  footer {
+    padding: 1rem;
   }
 }
