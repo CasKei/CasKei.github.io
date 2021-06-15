@@ -1,0 +1,239 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap");
+/* to use: font-family: 'Roboto Mono', monospace; */
+
+/* custom object */
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.cursor {
+  animation: 1.2s blink infinite;
+}
+
+/* base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* default body settings */
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+  */
+  font-size: 62.5%;
+}
+
+/* base styles */
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem; /* 20px */
+  font-weight: 300;
+  line-height: 1.4;
+  color: #eeeeee;
+  background-color: #111111;
+}
+/* text styles */
+h1 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 6rem;
+}
+h2 {
+  font-weight: 600;
+  font-size: 4.2rem;
+  text-align: center;
+}
+h3 {
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+h4 {
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+h5 {
+  font-weight: 400;
+}
+a:link {
+  padding-top: 15px;
+  padding-bottom: 8px;
+  color: #eeeeee;
+  text-decoration: none;
+}
+a:visited {
+  padding-top: 15px;
+  padding-bottom: 8px;
+  color: #eeeeee;
+  text-decoration: none;
+}
+a:hover {
+  color: #44e9ff;
+  transition-duration: 0.4s;
+  font-style: italic;
+}
+a:active {
+  color: #ff1e1e;
+  text-decoration: none;
+}
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+#navbar {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #111111;
+  z-index: 10;
+}
+.gridfit {
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+.navlink:hover {
+  background-color: #202020;
+  color: #44e9ff;
+  transition-duration: 0.7s;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* about */
+#about {
+  padding-top: 5rem;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-bottom: 5rem;
+  background-color: #202020;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+
+/* experience */
+#experience {
+  padding-top: 5rem;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-bottom: 5rem;
+  display: grid;
+  justify-content: center;
+}
+.xp-tile {
+  margin: 10px;
+}
+.tile-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding: 10px;
+}
+/* projects */
+#projects {
+  padding-top: 5rem;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-bottom: 5rem;
+  background-color: #202020;
+  display: grid;
+  justify-content: center;
+}
+
+/* education */
+#education {
+  padding-top: 5rem;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-bottom: 5rem;
+
+  display: grid;
+  justify-content: center;
+}
+.edu-tile {
+  margin: 10px;
+}
+
+/* contact */
+#contact {
+  padding-top: 5rem;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  justify-content: center;
+  background-color: #202020;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+/* A few media query to set some font sizes at different screen sizes.
+ * This helps automate a bit of responsiveness.
+ * The trick is to use the rem unit for size values, margin and padding.
+ * Because rem is relative to the document font size
+ * when we scale up or down the font size on the document
+ * it will affect all properties using rem units for the values.
+*/
+
+/* I am using the em unit for breakpoints
+ * The calculation is the following
+ * screen size divided by browser base font size
+ * As an example: a breakpoint at 980px
+ * 980px / 16px = 61.25em
+*/
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+  p {
+    font-size: 90%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+  p {
+    font-size: 90%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+  p {
+    font-size: 90%;
+  }
+}
