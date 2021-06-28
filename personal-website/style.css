@@ -114,12 +114,12 @@ a:active {
 .navlink:hover {
   background-color: #202020;
   color: #44e9ff;
-
   font-weight: 500;
   font-style: italic;
 }
 .navlink:active {
   color: #ff1e1e;
+  text-decoration: none;
 }
 
 /* about */
