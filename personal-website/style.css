@@ -118,6 +118,9 @@ a:active {
   font-weight: 500;
   font-style: italic;
 }
+.navlink:active {
+  color: #ff1e1e;
+}
 
 /* about */
 #about {
