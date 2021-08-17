@@ -1,8 +1,13 @@
-# Proceed to my website
-Made this for the last project of FCC Responsive Web Design course. Plan to maintain this.
+# This repo
+
+This is where I dump my attempts at making things. Still very simple things. Me noob.
+
+## Proceed to my website
 
 https://caskei.github.io/personal-website/
 
-Other projects are in the website above.
+## View My Projects
+
+See my projects at https://caskei.github.io/personal-website/#projects
 
 Cassie.
