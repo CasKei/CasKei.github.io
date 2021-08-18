@@ -54,7 +54,6 @@ function lose(userChoice, compChoice) {
   setTimeout(() => userChoice_div.classList.remove("red-glow"), 350);
 }
 function tie(userChoice, compChoice) {
-  userScore++;
   userScore_span.innerHTML = userScore;
   compScore_span.innerHTML = compScore;
   let userWord = "user".fontsize(3).sub();
