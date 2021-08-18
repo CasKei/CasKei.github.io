@@ -23,6 +23,6 @@ First time using JS to fetch some time: https://caskei.github.io/JS_Projects/dig
 
 Temperature converter for the lazy like me: https://caskei.github.io/JS_Projects/temp-converter/
 
-A game you probably can't lose. By probability. Kinda boring. https://caskei.github.io/JS_Projects/rock-paper-scissors/
+A boring game: https://caskei.github.io/JS_Projects/rock-paper-scissors/
 
 Cassie.
