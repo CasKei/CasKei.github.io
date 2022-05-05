@@ -126,25 +126,25 @@ a:active {
 /* about */
 #about {
   padding-top: 8rem;
-  text-align: left;
+  text-align: center;
   padding-left: 5rem;
   padding-right: 5rem;
   margin-bottom: 5rem;
   background-color: #202020;
   height: 100vh;
   display: grid;
-  justify-content: center;
+  justify-content: left;
 }
 
 /* experience */
 #experience {
   padding-top: 8rem;
-  text-align: right;
+  text-align: center;
   padding-left: 5rem;
   padding-right: 5rem;
   margin-bottom: 5rem;
   display: grid;
-  justify-content: center;
+  justify-content: right;
 }
 .xp-tile {
   margin: 10px;
@@ -157,25 +157,25 @@ a:active {
 /* projects */
 #projects {
   padding-top: 8rem;
-  text-align: left;
+  text-align: center;
   padding-left: 5rem;
   padding-right: 5rem;
   margin-bottom: 5rem;
   background-color: #202020;
   display: grid;
-  justify-content: center;
+  justify-content: left;
 }
 
 /* education */
 #education {
   padding-top: 8rem;
-  text-align: right;
+  text-align: center;
   padding-left: 5rem;
   padding-right: 5rem;
   margin-bottom: 5rem;
 
   display: grid;
-  justify-content: center;
+  justify-content: right;
 }
 .edu-tile {
   margin: 10px;
