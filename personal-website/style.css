@@ -30,16 +30,17 @@ html {
   /* Set font size for easy rem calculations
    * default document font size = 16px, 1rem = 16px, 100% = 16px
    * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+   may 22: change to 8px: 50%
   */
-  font-size: 62.5%;
+  font-size: 50%;
 }
 
 /* base styles */
 body {
   font-family: "Roboto Mono", monospace;
-  font-size: 2rem; /* 20px */
+  font-size: 1.7rem; /* 20px -- change to smaller font */
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.2;
   color: #eeeeee;
   background-color: #111111;
 }
@@ -51,16 +52,16 @@ h1 {
 }
 h2 {
   font-weight: 600;
-  font-size: 4.2rem;
+  font-size: 4rem;
   text-align: center;
 }
 h3 {
   font-weight: 500;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 h4 {
   font-weight: 400;
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 h5 {
   font-weight: 400;
@@ -125,7 +126,7 @@ a:active {
 /* about */
 #about {
   padding-top: 8rem;
-  text-align: center;
+  text-align: left;
   padding-left: 5rem;
   padding-right: 5rem;
   margin-bottom: 5rem;
@@ -138,7 +139,7 @@ a:active {
 /* experience */
 #experience {
   padding-top: 8rem;
-  text-align: center;
+  text-align: right;
   padding-left: 5rem;
   padding-right: 5rem;
   margin-bottom: 5rem;
@@ -156,7 +157,7 @@ a:active {
 /* projects */
 #projects {
   padding-top: 8rem;
-  text-align: center;
+  text-align: left;
   padding-left: 5rem;
   padding-right: 5rem;
   margin-bottom: 5rem;
@@ -168,7 +169,7 @@ a:active {
 /* education */
 #education {
   padding-top: 8rem;
-  text-align: center;
+  text-align: right;
   padding-left: 5rem;
   padding-right: 5rem;
   margin-bottom: 5rem;
