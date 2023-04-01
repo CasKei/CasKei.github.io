@@ -27,12 +27,12 @@
   <body>
     <!-- header: welcome page => full height, h1, nav -->
     <nav id="navbar" class="gridfit">
-      <a href="#welcome-section" class="navlink">home.</a>
-      <a href="#about" class="navlink">about.</a>
-      <a href="#experience" class="navlink">exp.</a>
-      <a href="#projects" class="navlink">proj.</a>
-      <a href="#education" class="navlink">edu.</a>
-      <a href="#contact" class="navlink">contact.</a>
+      <a href="#welcome-section" class="navlink"><h5>home.</h5></a>
+      <a href="#about" class="navlink"><h5>about.</h5></a>
+      <a href="#experience" class="navlink">exp.<h5></h5></a>
+      <a href="#projects" class="navlink"><h5>proj.</h5></a>
+      <a href="#education" class="navlink"><h5>edu.</h5></a>
+      <a href="#contact" class="navlink"><h5>contact.</h5></a>
     </nav>
     <section id="welcome-section">
       <h1>hello, i am cassie.<span class="cursor">|</span></h1>
@@ -41,7 +41,7 @@
     <section id="about">
       <h2>about.</h2>
       <article>
-        <p>My name is Cassie Chong.</p>
+        <p>My name is Cassie.</p>
         <p>I am a student at SUTD, and I'm still learning.</p>
         <p>
           I appreciate all the books, the people, the circumstances that I've
@@ -65,7 +65,10 @@
           <h5>A*STAR Institute of Infocomm Research</h5>
           <h5>Feb 2023 - Aug 2023</h5>
           <p>
-            Learn about research workflow.
+            Learn about research workflow and modern cryptography research.
+          </p>
+          <p>
+            Work with professional researchers from a variety of backgrounds such as pure mathematics and computer engineering experts.
           </p>
         </section>
         <section class="xp-tile">
@@ -102,28 +105,41 @@
       </section>
       <section class="tile-container" id="competition-xp">
         <h3>competitions</h3>
-        <section class="xp-tile">
-          <h4>Shopee Ultra-Hackathon 2021 participant</h4>
-          <h5>Shopee</h5>
-          <h5>Jan 2021</h5>
-          <p>
-            Participated in Shopee Ultra-Hackathon 2021 from 29 - 31 Jan 2021.
-            One of the top 96 teams out of over 400 teams that participated.
-            Received Certificate of Participation.
-          </p>
-        </section>
-        <section class="xp-tile">
-          <h4>Beyond Health Hack 2021</h4>
-          <h5>14 Jun 2021 - 31 Jul 2021</h5>
-          <p>Participated in B!HH 2021</p>
-        </section>
+        <a 
+        target="_blank"
+        class="external-link"
+        href="https://www.dsta.gov.sg/whats-on/spotlight/into-the-multiverse-and-beyond">
+          <section class="xp-tile">
+            <h4>DSTA BrainHack Cyber Defenders Discovery Camp 2022, Participant</h4>
+            <h5>DSTA</h5>
+            <h5>May 2022 - Jun 2022</h5>
+            <p>
+              Solved CTF challenges over limited time.
+            </p>
+          </section>
+        </a>
+        <a 
+        target="_blank"
+        class="external-link"
+        href="https://www.figma.com/proto/XVGqptpRG0ssnV8xvidIyX/Pre-Diabetes-App?page-id=0%3A1&scaling=scale-down&node-id=14%3A2&starting-point-node-id=14%3A2">
+          <section class="xp-tile">
+            <h4>Beyond Health Hack 2021, Participant</h4>
+            <h5>14 Jun 2021 - 31 Jul 2021</h5>
+            <p>Designed an app for users to manage pre-diabetes by tracking diet and exercise in a social platform.</p>
+          </section>
+        </a>
       </section>
       <section class="tile-container" id="activities-xp">
         <h3>activities and leadership</h3>
         <section class="xp-tile">
+          <h4>Member</h4>
+          <h5>Systema (Russian Martial Art), SUTD</h5>
+          <h5>2020 - Present</h5>
+        </section>
+        <section class="xp-tile">
           <h4>Treasurer</h4>
           <h5>Systema (Russian Martial Art), SUTD</h5>
-          <h5>2021 - Present</h5>
+          <h5>2021 - 2023</h5>
         </section>
         <section class="xp-tile">
           <h4>Member</h4>
@@ -134,11 +150,6 @@
           <h4>Member</h4>
           <h5>ANDSS Table Tennis Team</h5>
           <h5>2014 - 2017</h5>
-        </section>
-        <section class="xp-tile">
-          <h4>Chairperson, Member</h4>
-          <h5>NVPS Green Club</h5>
-          <h5>2009 - 2013</h5>
         </section>
       </section>
     </section>
@@ -156,11 +167,13 @@
             <h4>SAGE</h4>
             <h5>50.003 Project: Elements of Software Construction</h5>
             <h5>May 2022 - Aug 2022</h5>
-            <p>Code a responsive, user-friendly profile page for the SAGE web platform, which uses a MERN stack.</p>
-            <p>Use React and TailwindCSS functionalities to design modular components of a web page.</p>
+            <p>Implemented a responsive, user-friendly profile page for the SAGE web platform, which uses a MERN stack.</p>
+            <p>Used the functionalities of ReactJS and TailwindCSS to design modular components of a web page.</p>
             <p>Adhered to Software Development Life Cycle and Testing methodologies.</p>
+            <p>Conducted end-to-end testing and component testing with Cypress.io, and load testing with Artillery.io</p>
           </a>
         </section>
+
         <section class="project-tile">
           <a
             target="_blank"
@@ -184,9 +197,38 @@
             <h4>The Holding Dice</h4>
             <h5>50.002 Project: Computation Structures</h5>
             <h5>Jan 2021 - April 2021</h5>
-            <p>Coded an arcade game in Lucid on an Alchitry Au FPGA.</p>
+            <p>Helped design a simple button-based arcade game.</p>
+            <p>Coded 
+              <a
+                target="_blank"
+                class="external-link"
+                href="https://github.com/CasKei/toying_with_fpga">
+                several iterations
+              </a> of the game with FSM framework, which included an implementation of a 16-bit ALU in the process.</p>
+            <p>Used a hardware description language Lucid to program the Alchitry Au FPGA.</p>
           </a>
         </section>
+
+        <section class="project-tile">
+          <a
+            target="_blank"
+            class="external-link"
+            href="https://github.com/CasKei/2D-Term4"
+          >
+            <h4>Adapted Kogge-Stone Adder Implementation in JSim</h4>
+            <h5>50.002 Project: Computation Structures</h5>
+            <h5>Jan 2021 - April 2021</h5>
+            <p>Used a lower-level Computer Aided Design tool <a
+              target="_blank" href="https://ocw.mit.edu/courses/6-004-computation-structures-spring-2009/pages/tools/" class="external-link"
+              >JSim</a>
+              to design circuits and MOSFETs.
+            </p>
+            <p>Abstracted circuit designs several levels to create simple components such as full adders.</p>
+            <p>Further abstracted adders to implement an adapted Kogge-Stone adder architecture.</p>
+            <p>3rd group in cohort in terms of adder speed performance.</p>
+          </a>
+        </section>
+
 
         <section class="project-tile">
           <a
@@ -263,7 +305,11 @@
           <h4>Singapore Universtiy of Technology and Design</h4>
           <h5>Bachelor of Engineering (Computer Science and Design)</h5>
           <h5>2020 - 2024</h5>
-          <p>GPA: still in progress</p>
+          <p>Focus Tracks: Security, Internet of Things (IoT)</p>
+          <p>Minor in Digital Humanities</p>
+          <p>Minor in Artificial Intelligence</p>
+          <p>cGPA: 4.07 (still in progress)</p>
+          <p>Expected Honours with Distinction</p>
         </section>
         <section class="edu-tile">
           <h4>University of Maryland, College Park</h4>
@@ -274,6 +320,7 @@
         <section class="edu-tile">
           <h4>Raffles Institution</h4>
           <h5>Singapore-Cambridge A' Level</h5>
+          <h5>Raffles Diploma</h5>
           <h5>2018 - 2019</h5>
           <p>GP, PW: A</p>
           <p>FPM/E: CBB/C</p>
@@ -357,35 +404,32 @@
     </section>
 
     <!-- contact: email -->
-    <section id="contact">
+    <section class="tile-container" id="contact">
       <h2>contact.</h2>
-      <a href="tel:+6591013509">phone</a>
-      <a href="mailto:cassiechongkc@gmail.com">email</a>
+      <a href="tel:+6591013509"><h4>Phone</h4></a>
+      <a href="mailto:cassiechongkc@gmail.com"><h4>Email</h4></a>
       <a
         id="profile-link"
         target="_blank"
         class="external-link"
         href="https://github.com/CasKei"
-        >GitHub</a
+        ><h4>GitHub</h4></a
       >
       <a
         target="_blank"
         class="external-link"
         href="https://www.linkedin.com/in/cassiechongkc/"
-        >LinkedIn</a
+        ><h4>Linkedin</h4></a
       >
-      <a
-        target="_blank"
-        class="external-link"
-        href="https://www.freecodecamp.org/caskei"
-        >freeCodeCamp</a
-      >
+
+      <p>Updated as of Apr 2023</p>
+      <p>Copyright &copy; 2023 Cassie Chong</p>
     </section>
 
+
+
     <!-- footer -->
-    <footer>
-      <p>Updated as of Mar 2023</p>
-      <p>Copyright &copy; 2023 Cassie Chong</p>
-    </footer>
+    <!-- <footer>
+    </footer> -->
   </body>
 </html>
