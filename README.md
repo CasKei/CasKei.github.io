@@ -54,3 +54,49 @@ This work is published under [MIT][mit] License.
 [use-template]: https://github.com/cotes2020/chirpy-starter/generate
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+
+---
+
+Command for new post:
+
+```shell
+bundle exec jekyll post "Hello World"
+```
+
+Command for unpublishing a post:
+
+```shell
+bundle exec jekyll unpublish _posts/2014-01-24-my-new-draft.md
+```
+
+Command for new page:
+
+```shell
+bundle exec jekyll page "About"
+```
+
+Command for new draft:
+
+```shell
+bundle exec jekyll draft "Unfinished"
+```
+
+Command for renaming a draft:
+
+```shell
+bundle exec jekyll rename _drafts/my-new-draft.md "My Renamed Draft"
+```
+
+Command for renaming a post:
+
+```shell
+bundle exec jekyll rename _posts/2014-01-24-my-new-draft.md "My New Post"
+```
+
+Command for publishing a draft:
+
+```shell
+bundle exec jekyll publish _drafts/my-new-draft.md
+```
+
